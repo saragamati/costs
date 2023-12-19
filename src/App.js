@@ -1,21 +1,17 @@
 // Reaproveitamento de estrutura
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Container from "./components/layout/Container";
+import Footer from "./components/layout/Footer";
+import Navbar from "./components/layout/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <ul>
-        <Link to="/">Home</Link>
-        <Link to="/contact">Contato</Link>
-        <Link to="/company">Empresa</Link>
-        <Link to="/newproject">Novo Projeto</Link>
-      </ul>
+      <Navbar />
       <Container customClass="min-height">
         <Outlet />
       </Container>
-
-      <p>Footer</p>
+      <Footer />
     </div>
   );
 }
