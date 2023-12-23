@@ -10,6 +10,28 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Meu projeto 3",
+      "budget": "15000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Teste state",
+      "budget": "14444",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
