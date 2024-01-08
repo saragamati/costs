@@ -4,11 +4,24 @@
       "name": "Teste Atualizado",
       "budget": "1500",
       "category": {
-        "id": "3",
-        "name": "Design"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 200,
+      "services": [
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "Faz isso aqui",
+          "id": "bcd1ad54-edc9-4c94-80b4-b40cfbd22006"
+        },
+        {
+          "name": "Meu novo serviço",
+          "cost": "100",
+          "description": "Faz isso aqui",
+          "id": "bcd1ad54-edc9-4c94-80b4-b40cfbd22006"
+        }
+      ],
       "id": 1
     },
     {
