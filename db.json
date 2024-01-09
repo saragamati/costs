@@ -7,7 +7,7 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 200,
+      "cost": 1200,
       "services": [
         {
           "name": "Meu novo serviço",
@@ -20,6 +20,18 @@
           "cost": "100",
           "description": "Faz isso aqui",
           "id": "bcd1ad54-edc9-4c94-80b4-b40cfbd22006"
+        },
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "500",
+          "description": "Vai criar a funçao de envio de e-mails",
+          "id": "ab250cb3-8460-49db-b875-ae348f175100"
+        },
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "500",
+          "description": "Vai criar a funçao de envio de e-mails",
+          "id": "7053aab3-cb57-46d9-a95f-0a8c1915aa21"
         }
       ],
       "id": 1
@@ -34,17 +46,6 @@
       "cost": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "teste rei",
-      "budget": "70000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
     },
     {
       "name": "teste plan",
